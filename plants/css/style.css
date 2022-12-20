@@ -67,6 +67,36 @@ ul {
   color: #636060;
 }
 
+.about__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 153px;
+}
+.about__wrapper .about-content {
+  max-width: 605px;
+}
+.about__wrapper .about-content .about-h2 {
+  width: 463px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+.about__wrapper .about-content .about-h2 .second-color2 {
+  color: #E06733;
+}
+.about__wrapper .about-content .about-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
 .wrapper {
   max-width: 1222px;
   margin: 0 auto;
