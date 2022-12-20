@@ -1,0 +1,33 @@
+.header{
+    background-color: $color-background;
+    padding: 52px 0 62px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Inika',Verdana,sans-serif;
+        .logo{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color:$color-nav;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    .navigation{
+        display: flex;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 50px;
+        color:$color-nav;
+        &__link{
+            list-style: none;
+            padding-right: 46px;
+            cursor: pointer;
+        }
+    }
+
+}

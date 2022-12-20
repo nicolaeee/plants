@@ -7,4 +7,42 @@ body {
   font-family: 'Inter',Verdana,sans-serif;
 }
 
+.wrapper {
+  max-width: 1222px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #EDF2EC;
+  padding: 52px 0 62px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inika',Verdana,sans-serif;
+}
+.header__wrapper .logo {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #010201;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header .navigation {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: #010201;
+}
+.header .navigation__link {
+  list-style: none;
+  padding-right: 46px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */
