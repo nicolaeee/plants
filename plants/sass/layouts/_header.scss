@@ -1,32 +1,43 @@
 .header{
     background-color: $color-background;
     padding: 52px 0 62px 0;
+    color: $color-nav;
     &__wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 650px;
         font-family: 'Inika',Verdana,sans-serif;
         .logo{
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
             line-height: 21px;
-            color:$color-nav;
             text-decoration: none;
             cursor: pointer;
+            transition: 0.5s;
+            color: $color-nav;
+        }
+        .logo:hover{
+            color: $color-primary;
         }
     }
     .navigation{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 50px;
-        color:$color-nav;
+        width: 454px;
         &__link{
             list-style: none;
-            padding-right: 46px;
             cursor: pointer;
+            transition: 0.5s;
+        }
+        &__link:hover{
+            color: $color-primary;
         }
     }
 

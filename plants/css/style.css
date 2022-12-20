@@ -7,6 +7,66 @@ body {
   font-family: 'Inter',Verdana,sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 158px;
+  font-family: 'Inter',Verdana,sans-serif;
+  padding: 14px 27px 14px 27px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  background-color: white;
+  transition: 1s;
+  margin-top: 20px;
+}
+
+.button-bordered:hover {
+  background-color: #E06733;
+  color: white;
+}
+
+.welcome__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 55px 0;
+  gap: 245.2px;
+}
+.welcome__wrapper .welcome-leaf1 {
+  width: 448.8px;
+  height: 407.36px;
+}
+.welcome__wrapper .welcome-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 549px;
+}
+.welcome__wrapper .welcome-content .welcome-h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 50px;
+  width: 549px;
+  color: #717171;
+}
+.welcome__wrapper .welcome-content .welcome-h1 .second-color {
+  color: #499A18;
+}
+.welcome__wrapper .welcome-content .welcome-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 35px;
+  width: 525.44px;
+  color: #636060;
+}
+
 .wrapper {
   max-width: 1222px;
   margin: 0 auto;
@@ -15,11 +75,13 @@ body {
 .header {
   background-color: #EDF2EC;
   padding: 52px 0 62px 0;
+  color: #010201;
 }
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 650px;
   font-family: 'Inika',Verdana,sans-serif;
 }
 .header__wrapper .logo {
@@ -27,22 +89,31 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
-  color: #010201;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.5s;
+  color: #010201;
+}
+.header__wrapper .logo:hover {
+  color: #E06733;
 }
 .header .navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 50px;
-  color: #010201;
+  width: 454px;
 }
 .header .navigation__link {
   list-style: none;
-  padding-right: 46px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.header .navigation__link:hover {
+  color: #E06733;
 }
 
 /*# sourceMappingURL=style.css.map */

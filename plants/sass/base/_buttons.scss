@@ -1,0 +1,15 @@
+.button{
+    width: 158px;
+    font-family: 'Inter',Verdana,sans-serif;
+    padding: 14px 27px 14px 27px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background-color: white;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.button-bordered:hover{
+    background-color: #E06733;
+    color: white;
+}
