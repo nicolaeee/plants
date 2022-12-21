@@ -7,9 +7,27 @@
     background-color: white;
     transition: 1s;
     margin-top: 20px;
+    background-color:  #EDF2EC;
 }
 
 .button-bordered:hover{
     background-color: #E06733;
     color: white;
 }
+.button2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 161px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    padding: 12px 40px 12px 40px;
+    background-color:  #EDF2EC;
+    transition: 1s;
+    color: #E06733;
+}
+.button-bordered2:hover{
+    background-color: #E06733;
+    color: white;}

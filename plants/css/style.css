@@ -21,11 +21,36 @@ ul {
   background-color: white;
   transition: 1s;
   margin-top: 20px;
+  background-color: #EDF2EC;
 }
 
 .button-bordered:hover {
   background-color: #E06733;
   color: white;
+}
+
+.button2 {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  width: 161px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  padding: 12px 40px 12px 40px;
+  background-color: #EDF2EC;
+  transition: 1s;
+  color: #E06733;
+}
+
+.button-bordered2:hover {
+  background-color: #E06733;
+  color: white;
+}
+
+.welcome {
+  background-color: #EDF2EC;
 }
 
 .welcome__wrapper {
@@ -95,6 +120,50 @@ ul {
   font-size: 20px;
   line-height: 30px;
   color: #636060;
+}
+
+.service {
+  background-color: #EDF2EC;
+}
+
+.service__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #EDF2EC;
+}
+.service__wrapper .service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1007px;
+}
+.service__wrapper .serviceh2 {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  width: 306px;
+  color: #499A18;
+}
+.service__wrapper .buttons-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 559px;
+  height: 51px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.services .service-item {
+  padding-bottom: 121px;
 }
 
 .wrapper {

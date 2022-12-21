@@ -1,0 +1,49 @@
+.service{
+    background-color:#EDF2EC;
+}
+
+.service__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:#EDF2EC;
+    .service-content{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        width: 1007px;
+
+
+
+    }.serviceh2{
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 52px;
+            width: 306px;
+            color: #499A18;
+        }
+        .buttons-service{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 559px;
+            height: 51px;
+
+
+        }
+}
+.services{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+            .service-item{
+                padding-bottom: 121px;
+            }
+        }
+
+
+
