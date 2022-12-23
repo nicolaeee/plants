@@ -1,11 +1,12 @@
 .welcome{
     background-color:#EDF2EC;
+    max-width: 100%;
 }
 .welcome__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 0 55px 0;
+    padding: 70px 109px 55px 109px;
     gap: 245.2px;
     .welcome-leaf1{
         width: 448.8px;
@@ -15,7 +16,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 549px;
+
         .welcome-h1{
             font-family: 'Inter';
             font-style: normal;
@@ -35,7 +36,7 @@
             font-weight: 400;
             font-size: 2rem;
             line-height: 35px;
-            width: 525.44px;
+
             color:#636060;
         }
     }

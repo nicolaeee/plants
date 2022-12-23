@@ -1,11 +1,19 @@
-$color-brand:#499A18;
-$color-primary:#E06733;
-$color-header:#717171;
-$color-text:#636060;
-$color-nav:#010201;
-$color-background:#EDF2EC;
-$color-light:while;
+.contacts{
+    background-color:#EDF2EC;
+}
+.contacts__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 133px;
+    .contacts-item1{
 
-$content-width:1222px;
-$content-width-tablet:768px;
-$content-width-mobile:380px;
+    }
+    .contacts-item2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+}

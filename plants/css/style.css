@@ -51,13 +51,14 @@ ul {
 
 .welcome {
   background-color: #EDF2EC;
+  max-width: 100%;
 }
 
 .welcome__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px 0 55px 0;
+  padding: 70px 109px 55px 109px;
   gap: 245.2px;
 }
 .welcome__wrapper .welcome-leaf1 {
@@ -68,7 +69,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 549px;
 }
 .welcome__wrapper .welcome-content .welcome-h1 {
   font-family: 'Inter';
@@ -88,7 +88,6 @@ ul {
   font-weight: 400;
   font-size: 2rem;
   line-height: 35px;
-  width: 525.44px;
   color: #636060;
 }
 
@@ -136,7 +135,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1007px;
 }
 .service__wrapper .serviceh2 {
   font-family: 'Inika';
@@ -160,14 +158,221 @@ ul {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 50px;
+  gap: 55px;
+  padding: 90px 0 121px 0;
 }
-.services .service-item {
-  padding-bottom: 121px;
+.services .service-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .rectangle {
+  width: 330px;
+  text-align: center;
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+}
+.services .rectangle .serviceh3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #E06733;
+}
+.services .rectangle .service-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
+.prices {
+  max-width: 100%;
+}
+.prices .prices__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 115px;
+  gap: 432px;
+}
+.prices .prices__wrapper .button-wrapper {
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+.prices .prices__wrapper .prices-item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.prices .prices__wrapper .prices-item1 .prices-item1-header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  padding: 0 197px 60px 0;
+}
+.prices .prices__wrapper .container-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 34px 41px;
+  gap: 32px;
+}
+.prices .prices__wrapper .button-prices {
+  width: 250px;
+  height: 50px;
+  background: #EDF2EC;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding: 16px 110px 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prices .prices__wrapper .ellipse {
+  width: 16px;
+  height: 16px;
+  padding-left: 100px;
+}
+.prices .prices__wrapper .ellipse1 {
+  width: 16px;
+  height: 16px;
+  padding-left: 77px;
+}
+.prices .prices__wrapper .ellipse2 {
+  width: 16px;
+  height: 16px;
+  padding-left: 90px;
+}
+
+.prices-item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prices-item2 .prices-item1-header1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+}
+.prices-item2 .prices-item1-header1 .second-color-prices {
+  color: #499A18;
+}
+.prices-item2 .button {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: center;
+  color: #E06733;
+  width: 161px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  padding: 12px 40px 12px 40px;
+  background-color: white;
+  transition: 1s;
+  color: #E06733;
+  padding: 12px 33px 12px 30px;
+  margin: 38px 0 0 290px;
+}
+.prices-item2 .button-bordered:hover {
+  background-color: #E06733;
+  color: white;
+}
+.prices-item2 .leafs-prices {
+  width: 152px;
+  height: 174.99px;
+  padding: 39px 0 0 292px;
+}
+
+.contacts {
+  background-color: #EDF2EC;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 133px;
+}
+.contacts__wrapper .contacts-item2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
 }
 
 .wrapper {
-  max-width: 1222px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.container-header {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-welcome {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-about {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-service {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-about {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-prices {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-contacts {
+  max-width: 1470px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.container-footer {
+  max-width: 1470px;
+  padding: 15px 0;
   margin: 0 auto;
 }
 
@@ -175,6 +380,7 @@ ul {
   background-color: #EDF2EC;
   padding: 52px 0 62px 0;
   color: #010201;
+  max-width: 100%;
 }
 .header__wrapper {
   display: flex;
@@ -182,6 +388,7 @@ ul {
   align-items: center;
   gap: 650px;
   font-family: 'Inika',Verdana,sans-serif;
+  max-width: 1240px;
 }
 .header__wrapper .logo {
   font-style: normal;

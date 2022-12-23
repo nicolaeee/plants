@@ -1,0 +1,123 @@
+.prices{
+    max-width: 100%;
+    .prices__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 115px;
+        gap: 432px;
+
+        .button-wrapper{
+            border: 1px solid #E3E1D5;
+            border-radius: 20px;
+        }
+        .prices-item1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .prices-item1-header{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                color: #000000;
+                padding: 0 197px 60px 0;
+            }
+        }
+        .container-buttons{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 34px 41px;
+            gap: 32px;
+        }
+        .button-prices{
+            width: 250px;
+            height: 50px;
+            background: #EDF2EC;
+            border: none;
+            border-radius: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #000000;
+            padding: 16px 110px 16px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+           }
+           .ellipse{
+            width: 16px;
+            height: 16px;
+            padding-left: 100px;
+
+           }
+           .ellipse1{
+            width: 16px;
+            height: 16px;
+            padding-left: 77px;
+
+           }
+           .ellipse2{
+            width: 16px;
+            height: 16px;
+            padding-left:  90px;
+           }
+        }
+        }
+        .prices-item2{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .prices-item1-header1{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                text-align: right;
+                color: #000000;
+                .second-color-prices{
+                    color: #499A18;
+                }
+            }
+            .button{
+                font-family: 'Inika';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 26px;
+                /* identical to box height */
+
+                text-align: center;
+
+                color: #E06733;
+                width: 161px;
+                border: 1px solid #E06733;
+                border-radius: 5px;
+                padding: 12px 40px 12px 40px;
+                background-color:  white;
+                transition: 1s;
+                color: #E06733;
+                padding: 12px 33px 12px 30px;
+                margin: 38px 0 0 290px;
+            }
+            .button-bordered:hover{
+                background-color: #E06733;
+                color: white;
+            }
+            .leafs-prices{
+                width: 152px;
+                height: 174.99px;
+                padding: 39px 0 0 292px;
+            }
+        }
+

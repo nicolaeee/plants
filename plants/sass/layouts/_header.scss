@@ -2,12 +2,15 @@
     background-color:#EDF2EC;
     padding: 52px 0 62px 0;
     color: $color-nav;
+    max-width: 100%;
+
     &__wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 650px;
         font-family: 'Inika',Verdana,sans-serif;
+        max-width: 1240px;
         .logo{
             font-style: normal;
             font-weight: 400;
