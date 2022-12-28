@@ -12,6 +12,11 @@ ul {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .button {
   width: 158px;
   font-family: 'Inter',Verdana,sans-serif;
@@ -20,7 +25,6 @@ ul {
   border-radius: 10px;
   background-color: white;
   transition: 1s;
-  margin-top: 20px;
   background-color: #EDF2EC;
 }
 
@@ -58,17 +62,14 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px 109px 55px 109px;
-  gap: 245.2px;
-}
-.welcome__wrapper .welcome-leaf1 {
-  width: 448.8px;
-  height: 407.36px;
+  padding: 30px 109px 124px 109px;
 }
 .welcome__wrapper .welcome-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 13px 50px 0px;
+  gap: 20px;
 }
 .welcome__wrapper .welcome-content .welcome-h1 {
   font-family: 'Inter';
@@ -86,9 +87,28 @@ ul {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 35px;
+  width: 525.44px;
   color: #636060;
+}
+.welcome__wrapper .welcome-content .button {
+  width: 158px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Inter',Verdana,sans-serif;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  background-color: white;
+  transition: 1s;
+  background-color: #EDF2EC;
+}
+.welcome__wrapper .welcome-content .button-bordered2:hover {
+  background-color: #E06733;
+  color: white;
 }
 
 .about__wrapper {
@@ -96,6 +116,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 153px;
+  padding: 0 0 150px 0;
 }
 .about__wrapper .about-content {
   max-width: 605px;
@@ -314,13 +335,46 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 133px;
+}
+.contacts__wrapper .contacts-item1 {
+  margin-bottom: 0;
 }
 .contacts__wrapper .contacts-item2 {
+  padding: 53px 64px 420px 113px;
+}
+.contacts__wrapper .contacts-item2 .contact-me {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  width: 195px;
+}
+.contacts__wrapper .contacts-item3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 0;
+  padding: 148px 0 352px 0;
+}
+.contacts__wrapper .contacts-item3 .button-contacts {
+  background: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 175px;
 }
 
 .wrapper {
@@ -378,7 +432,6 @@ ul {
 
 .header {
   background-color: #EDF2EC;
-  padding: 52px 0 62px 0;
   color: #010201;
   max-width: 100%;
 }
@@ -386,11 +439,15 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 650px;
   font-family: 'Inika',Verdana,sans-serif;
-  max-width: 1240px;
+  width: 1224px;
+  gap: 700px;
 }
 .header__wrapper .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Inika',Verdana,sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -399,11 +456,13 @@ ul {
   cursor: pointer;
   transition: 0.5s;
   color: #010201;
+  padding-top: 23px;
 }
 .header__wrapper .logo:hover {
   color: #E06733;
 }
 .header .navigation {
+  font-family: 'Inika',Verdana,sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -412,6 +471,9 @@ ul {
   font-size: 16px;
   line-height: 50px;
   width: 454px;
+  height: 50px;
+  padding-top: 26.9px;
+  padding-right: 1.5px;
 }
 .header .navigation__link {
   list-style: none;
@@ -420,6 +482,33 @@ ul {
 }
 .header .navigation__link:hover {
   color: #E06733;
+}
+
+.container__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+.container__wrapper .footer-item1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+}
+.container__wrapper .footer-item2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+.container__wrapper .footer-item3 {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  gap: 22.2px;
 }
 
 /*# sourceMappingURL=style.css.map */

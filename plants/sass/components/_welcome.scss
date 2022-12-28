@@ -6,16 +6,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 109px 55px 109px;
-    gap: 245.2px;
+    padding: 30px 109px 124px 109px;
+
     .welcome-leaf1{
-        width: 448.8px;
-        height: 407.36px;
+
     }
     .welcome-content{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 0 13px 50px 0px;
+        gap: 20px;
+
+
 
         .welcome-h1{
             font-family: 'Inter';
@@ -25,19 +28,42 @@
             line-height: 50px;
             width: 549px;
             color: #717171;
+
             .second-color{
                 color: #499A18;
             }
 
         }
         .welcome-description{
+
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
-            font-size: 2rem;
+            font-size: 20px;
             line-height: 35px;
+            width: 525.44px;
 
             color:#636060;
         }
+        .button{
+            width: 158px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'Inter',Verdana,sans-serif;
+            border: 2px solid #E06733;
+            border-radius: 10px;
+            background-color: white;
+            transition: 1s;
+
+
+            background-color:  #EDF2EC;
+        }
+        .button-bordered2:hover{
+            background-color: #E06733;
+            color: white;}
+
     }
 }

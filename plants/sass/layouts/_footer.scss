@@ -1,0 +1,27 @@
+.container__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px 0;
+    .footer-item1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 22px;
+    }
+    .footer-item2{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .footer-item3{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        gap: 22.2px;
+
+    }
+}
