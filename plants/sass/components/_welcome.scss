@@ -6,21 +6,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 109px 124px 109px;
+    gap: 20px;
+    padding: 73px 109px 55px 94px;
 
     .welcome-leaf1{
-
+        padding-bottom: 46px;
     }
+
     .welcome-content{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 0 13px 50px 0px;
-        gap: 20px;
-
+        padding-bottom: 100px;
 
 
         .welcome-h1{
+            padding-top: 1px;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
@@ -35,15 +36,15 @@
 
         }
         .welcome-description{
-
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
             line-height: 35px;
             width: 525.44px;
-
+            padding-bottom: 25px;
             color:#636060;
+
         }
         .button{
             width: 158px;
@@ -55,11 +56,13 @@
             font-family: 'Inter',Verdana,sans-serif;
             border: 2px solid #E06733;
             border-radius: 10px;
-            background-color: white;
             transition: 1s;
-
-
             background-color:  #EDF2EC;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 10px 15px 11px 25px;
         }
         .button-bordered2:hover{
             background-color: #E06733;
