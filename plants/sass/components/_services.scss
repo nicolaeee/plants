@@ -12,7 +12,8 @@
         display: flex;
         justify-content:space-between ;
         align-items: center;
-
+        padding-top: 7px;
+        padding-left: 18px;
     }.serviceh2{
             font-family: 'Inika';
             font-style: normal;
@@ -29,7 +30,7 @@
             width: 559px;
             height: 51px;
             padding-top: 9px;
-            padding-right: 215px;
+            padding-right: 232px;
         }
 }
 .services{
@@ -37,8 +38,8 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
-        gap: 55px;
-        padding: 51px 0 92px 0;
+        gap: 40px;
+        padding: 51px 12.5px 92px 12.5px;
 
         .service-item1{
             display: flex;
@@ -73,7 +74,7 @@
             font-size: 16px;
             line-height: 20px;
             color: #717171;
-
+            padding-bottom: 15px;
         }
 
         }
