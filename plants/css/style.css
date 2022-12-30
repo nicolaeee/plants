@@ -45,64 +45,6 @@ a {
   background-color: #E06733;
   color: white; }
 
-.welcome {
-  background-color: #EDF2EC;
-  max-width: 100%; }
-
-.welcome__wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding: 73px 109px 55px 94px; }
-  .welcome__wrapper .welcome-leaf1 {
-    padding-bottom: 46px; }
-  .welcome__wrapper .welcome-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 100px; }
-    .welcome__wrapper .welcome-content .welcome-h1 {
-      padding-top: 1px;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 4.5rem;
-      line-height: 50px;
-      width: 549px;
-      color: #717171; }
-      .welcome__wrapper .welcome-content .welcome-h1 .second-color {
-        color: #499A18; }
-    .welcome__wrapper .welcome-content .welcome-description {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 35px;
-      width: 525.44px;
-      padding-bottom: 25px;
-      color: #636060; }
-    .welcome__wrapper .welcome-content .button {
-      width: 158px;
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 20px;
-      font-family: 'Inter',Verdana,sans-serif;
-      border: 2px solid #E06733;
-      border-radius: 10px;
-      transition: 1s;
-      background-color: #EDF2EC;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      padding: 10px 15px 11px 25px; }
-    .welcome__wrapper .welcome-content .button-bordered2:hover {
-      background-color: #E06733;
-      color: white; }
-
 .about__wrapper {
   display: flex;
   justify-content: center;
@@ -217,7 +159,7 @@ a {
         font-size: 40px;
         line-height: 48px;
         color: #000000;
-        padding: 0 197px 60px 0; }
+        padding-right: 210px; }
     .prices .prices__wrapper .container-buttons {
       display: flex;
       flex-direction: column;
@@ -338,96 +280,33 @@ a {
       gap: 175px; }
 
 .wrapper {
-  max-width: 1222px;
-  margin: 0 auto; }
-
-.container-header {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-welcome {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-about {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-service {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-about {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-prices {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-contacts {
-  max-width: 1470px;
-  padding: 15px 0;
-  margin: 0 auto; }
-
-.container-footer {
-  max-width: 1470px;
-  padding: 15px 0;
+  max-width: 1256px;
   margin: 0 auto; }
 
 .header {
   background-color: #EDF2EC;
   color: #010201;
   max-width: 100%; }
-  .header__wrapper {
+  .header .wrapper__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Inika',Verdana,sans-serif;
-    width: 1224px;
-    gap: 700px; }
-    .header__wrapper .logo {
+    padding: 42px 0; }
+    .header .wrapper__header .logo {
+      margin: 4.5px 0 8px 16px; }
+    .header .wrapper__header .navigation {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      align-content: center;
-      font-family: 'Inika',Verdana,sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 21px;
-      text-decoration: none;
-      cursor: pointer;
-      transition: 0.5s;
-      color: #010201;
-      padding-top: 23px; }
-    .header__wrapper .logo:hover {
-      color: #E06733; }
-  .header .navigation {
-    font-family: 'Inika',Verdana,sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 50px;
-    width: 454px;
-    height: 50px;
-    padding-top: 26.9px;
-    padding-right: 1.5px; }
-    .header .navigation__link {
+      align-items: center;
       list-style: none;
-      cursor: pointer;
-      transition: 0.5s; }
-    .header .navigation__link:hover {
-      color: #E06733; }
+      padding-right: 20px; }
+      .header .wrapper__header .navigation__link {
+        font-family: 'Inika',Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 50px;
+        margin-left: 47.3px; }
 
 .container__wrapper {
   display: flex;
