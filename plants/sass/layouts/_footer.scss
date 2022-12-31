@@ -15,7 +15,9 @@
         font-size: 20px;
         line-height: 50px;
         color: #000000;
-        cursor: pointer;
+        .github-footer{
+            cursor: pointer;
+        }
     }
     .footer-item2{
         font-family: 'Inter';
@@ -32,6 +34,8 @@
         align-content: center;
         align-items: center;
         gap: 22.2px;
-        cursor: pointer;
+        .social1{
+            cursor: pointer;
+        }
     }
 }
