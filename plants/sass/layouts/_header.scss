@@ -1,0 +1,35 @@
+.header{
+    background-color: $color-background;
+    color: $color-nav;
+    max-width: 100%;
+    .wrapper__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 42px 0;
+        .logo{
+            margin: 4.5px 0 8px 16px;
+        }
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            padding-right: 20px;
+            &__link{
+                font-family: 'Inika',Verdana, sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 50px;
+                margin-left: 47px;
+                transition: 1s;
+                cursor: pointer;
+            }
+            .navigation__link:hover{
+                color: $color-primary;
+            }
+            }
+    }
+}
+

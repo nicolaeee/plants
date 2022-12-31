@@ -1,0 +1,33 @@
+.button{
+    width: 158px;
+    font-family: 'Inter',Verdana,sans-serif;
+    padding: 14px 27px 14px 27px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background-color: white;
+    transition: 1s;
+
+    background-color:  #EDF2EC;
+}
+
+.button-bordered:hover{
+    background-color: #E06733;
+    color: white;
+}
+.button2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 161px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    padding: 12px 40px 12px 40px;
+    background-color:  #EDF2EC;
+    transition: 1s;
+    color: #E06733;
+}
+.button-bordered2:hover{
+    background-color: #E06733;
+    color: white;}
