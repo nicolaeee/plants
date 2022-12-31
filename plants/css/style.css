@@ -159,8 +159,9 @@ a {
     width: 559px;
     height: 51px;
     padding-top: 9px;
-    padding-right: 232px;
-    cursor: pointer; }
+    padding-right: 232px; }
+    .service__wrapper .buttons-service .button2 {
+      cursor: pointer; }
 
 .services {
   display: flex;
@@ -360,7 +361,6 @@ a {
 
 .header {
   background-color: #EDF2EC;
-  color: #010201;
   max-width: 100%; }
   .header .wrapper__header {
     display: flex;
@@ -382,9 +382,8 @@ a {
         font-size: 16px;
         line-height: 50px;
         margin-left: 47px;
-        transition: 1s;
-        cursor: pointer; }
-      .header .wrapper__header .navigation .navigation__link:hover {
+        transition: 1s; }
+      .header .wrapper__header .navigation a:hover {
         color: #E06733; }
 
 .container__wrapper {
@@ -403,8 +402,9 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 50px;
-    color: #000000;
-    cursor: pointer; }
+    color: #000000; }
+    .container__wrapper .footer-item1 .github-footer {
+      cursor: pointer; }
   .container__wrapper .footer-item2 {
     font-family: 'Inter';
     font-style: normal;
@@ -418,7 +418,8 @@ a {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    gap: 22.2px;
-    cursor: pointer; }
+    gap: 22.2px; }
+    .container__wrapper .footer-item3 .social1 {
+      cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
