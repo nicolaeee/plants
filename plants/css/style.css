@@ -379,18 +379,26 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0 40px 0; }
+  padding: 20px 0;
+  max-width: 1222px; }
   .container__wrapper .footer-item1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 22px; }
+    gap: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000; }
   .container__wrapper .footer-item2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 50px; }
+    line-height: 50px;
+    padding-left: 12px; }
   .container__wrapper .footer-item3 {
     display: flex;
     justify-content: space-between;
