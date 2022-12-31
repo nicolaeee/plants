@@ -53,7 +53,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
   padding: 62px 109px 55px 109px; }
   .welcome__wrapper .welcome-leaf1 {
     padding-bottom: 46px; }
@@ -203,8 +202,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2px;
-    gap: 432px; }
+    padding-bottom: 114px;
+    gap: 422px; }
     .prices .prices__wrapper .button-wrapper {
       border: 1px solid #E3E1D5;
       border-radius: 20px; }
@@ -212,7 +211,8 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      padding-left: 15px; }
       .prices .prices__wrapper .prices-item1 .prices-item1-header {
         font-family: 'Inter';
         font-style: normal;
@@ -220,7 +220,9 @@ a {
         font-size: 40px;
         line-height: 48px;
         color: #000000;
-        padding-right: 210px; }
+        align-self: flex-start;
+        margin-bottom: 32px;
+        padding-bottom: 31px; }
     .prices .prices__wrapper .container-buttons {
       display: flex;
       flex-direction: column;
@@ -247,19 +249,20 @@ a {
     .prices .prices__wrapper .ellipse {
       width: 16px;
       height: 16px;
-      padding-left: 100px; }
+      padding-left: 93px; }
     .prices .prices__wrapper .ellipse1 {
       width: 16px;
       height: 16px;
-      padding-left: 77px; }
+      padding-left: 65px; }
     .prices .prices__wrapper .ellipse2 {
       width: 16px;
       height: 16px;
-      padding-left: 90px; }
+      padding-left: 80px; }
 
 .prices-item2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-between; }
   .prices-item2 .prices-item1-header1 {
     font-family: 'Inter';
@@ -268,7 +271,8 @@ a {
     font-size: 40px;
     line-height: 50px;
     text-align: right;
-    color: #000000; }
+    color: #000000;
+    padding-right: 14px; }
     .prices-item2 .prices-item1-header1 .second-color-prices {
       color: #499A18; }
   .prices-item2 .button {
@@ -305,22 +309,21 @@ a {
   justify-content: space-between;
   align-items: center; }
   .contacts__wrapper .contacts-item1 {
-    margin-bottom: 0; }
-  .contacts__wrapper .contacts-item2 {
-    padding: 53px 64px 420px 113px; }
-    .contacts__wrapper .contacts-item2 .contact-me {
-      font-family: 'Inika';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 52px;
-      color: #499A18;
-      width: 195px; }
+    margin: 50px 0 0 15px; }
+  .contacts__wrapper .contacts-item2 .contact-me {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    width: 195px;
+    margin: 53px 64px 432px 118px; }
   .contacts__wrapper .contacts-item3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 148px 0 352px 0; }
+    padding: 148px 19px 352px 0; }
     .contacts__wrapper .contacts-item3 .button-contacts {
       background: #D6E7D2;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -338,7 +341,10 @@ a {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 175px; }
+      gap: 175px;
+      padding: 7px 222px 10px 20px; }
+    .contacts__wrapper .contacts-item3 .ellipse4 {
+      padding-left: 160px; }
 
 .wrapper {
   max-width: 1256px;
