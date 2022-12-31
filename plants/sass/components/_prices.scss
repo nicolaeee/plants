@@ -55,6 +55,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            cursor: pointer;
 
            }
            .ellipse{
@@ -90,7 +91,7 @@
                 text-align: right;
                 color: #000000;
                 padding-right: 14px;
-
+                cursor: pointer;
                 .second-color-prices{
                     color: #499A18;
                 }
@@ -101,10 +102,7 @@
                 font-weight: 700;
                 font-size: 20px;
                 line-height: 26px;
-                /* identical to box height */
-
                 text-align: center;
-
                 color: #E06733;
                 width: 161px;
                 border: 1px solid #E06733;
@@ -115,6 +113,7 @@
                 color: #E06733;
                 padding: 12px 33px 12px 30px;
                 margin: 38px 0 0 290px;
+                cursor: pointer;
             }
             .button-bordered:hover{
                 background-color: #E06733;

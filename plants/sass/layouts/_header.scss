@@ -23,6 +23,11 @@
                 font-size: 16px;
                 line-height: 50px;
                 margin-left: 47px;
+                transition: 1s;
+                cursor: pointer;
+            }
+            .navigation__link:hover{
+                color: $color-primary;
             }
             }
     }
