@@ -7,7 +7,7 @@
     align-items: center;
 
     .contacts-item1{
-        margin: 50px 0 0 15px;
+        margin: 26px 0 0 6px;
     }
 
     .contacts-item2{
@@ -57,4 +57,35 @@
        }
     }
 
+}
+@media (max-width:768px){
+    .contacts{
+        .contacts__wrapper{
+            display: flex;
+            flex-direction: column;
+            .contacts-item1{
+                width: 200px;
+                padding-top: 99px;
+                padding-right: 2px;
+                order: 3;
+            }
+            .contacts-item2{
+                padding: 0;
+               margin: 0;
+                .contact-me{
+                    padding: 0;
+                    padding-top: 37px;
+                    margin: 2px 2px 2px 2px;
+                }
+            }
+            .contacts-item3{
+                padding: 0;
+                padding-top: 100px;
+                align-self: center;
+                .button-contacts{
+
+                }
+            }
+        }
+    }
 }

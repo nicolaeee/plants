@@ -131,4 +131,47 @@
 
             }
         }
+        @media (max-width:768px){
 
+            .prices{
+                .prices__wrapper{
+                    gap: 0;
+                    padding-top: 42px;
+                    padding-bottom: 82px;
+
+                .prices-item1{
+                    .prices-item1-header{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 35px;
+                        margin: 0 0 0 18px ;
+                    }
+                    .button-wrapper{
+                        margin-bottom: 79px;
+                        margin-left: 4px;
+                    }
+                 }
+                 .prices-item2{
+                    margin-right: 20px;
+                    .prices-item1-header1{
+                        padding-top: 102px;
+                            margin: 0px 0 0 38px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 35px;
+                        width: 296px;
+                    }
+                    .button{
+                        margin: 27px 4px 0px 158px;
+                     }
+                     .leafs-prices{
+                        padding: 0;
+                        margin: 36px 0 0px 171px;
+                     }
+                 }
+                }
+            }
+        }

@@ -103,6 +103,32 @@ a {
       background-color: #E06733;
       color: white; }
 
+@media (max-width: 768px) {
+  .welcome {
+    height: 420px; }
+
+  .welcome__wrapper {
+    flex-direction: row-reverse;
+    padding: 7px 50px; }
+    .welcome__wrapper .welcome-leaf1 {
+      width: 280px;
+      padding-bottom: 135px; }
+    .welcome__wrapper .welcome-content .welcome-h1 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 50px;
+      color: #717171;
+      width: 341px; }
+    .welcome__wrapper .welcome-content .welcome-description {
+      width: 341px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 0px 2px 15px 4.5px; } }
 .about__wrapper {
   display: flex;
   justify-content: center;
@@ -129,6 +155,36 @@ a {
       line-height: 30px;
       color: #636060; }
 
+@media (max-width: 768px) {
+  .about__wrapper {
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 10px;
+    margin: 0 auto; }
+    .about__wrapper .about-content {
+      padding-right: 65px; }
+      .about__wrapper .about-content .about-h2 {
+        width: 423px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+        padding-left: 124px;
+        padding-bottom: 20px; }
+      .about__wrapper .about-content .about-description {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #636060;
+        width: 668px;
+        padding-right: 10px; }
+    .about__wrapper .house-plant1 {
+      padding-top: 3px;
+      width: 250px; } }
 .service {
   background-color: #EDF2EC; }
 
@@ -201,6 +257,40 @@ a {
       color: #717171;
       padding-bottom: 15px; }
 
+@media (max-width: 768px) {
+  .service .service__wrapper .service-content {
+    flex-direction: column; }
+    .service .service__wrapper .service-content .serviceh2 {
+      padding-right: 380px;
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 35px;
+      line-height: 46px;
+      width: 306px;
+      padding-top: 19px; }
+    .service .service__wrapper .service-content .buttons-service {
+      padding-top: 17px;
+      padding-left: 105px; }
+  .service .services {
+    padding: 40px 17px;
+    gap: 10px; }
+    .service .services .service-item1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .service .services .service-item1 .img-services {
+        width: 282px;
+        height: 350px; }
+      .service .services .service-item1 .rectangle {
+        width: 280px;
+        height: 100px; }
+      .service .services .service-item1 .serviceh3 {
+        padding-top: 3px;
+        padding-right: 3px; }
+      .service .services .service-item1 .service-description {
+        width: 201px;
+        padding-left: 37px; } }
 .prices {
   max-width: 100%; }
   .prices .prices__wrapper {
@@ -309,6 +399,36 @@ a {
     height: 174.99px;
     padding: 39px 0 0 292px; }
 
+@media (max-width: 768px) {
+  .prices .prices__wrapper {
+    gap: 0;
+    padding-top: 42px;
+    padding-bottom: 82px; }
+    .prices .prices__wrapper .prices-item1 .prices-item1-header {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      margin: 0 0 0 18px; }
+    .prices .prices__wrapper .prices-item1 .button-wrapper {
+      margin-bottom: 79px;
+      margin-left: 4px; }
+    .prices .prices__wrapper .prices-item2 {
+      margin-right: 20px; }
+      .prices .prices__wrapper .prices-item2 .prices-item1-header1 {
+        padding-top: 102px;
+        margin: 0px 0 0 38px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        width: 296px; }
+      .prices .prices__wrapper .prices-item2 .button {
+        margin: 27px 4px 0px 158px; }
+      .prices .prices__wrapper .prices-item2 .leafs-prices {
+        padding: 0;
+        margin: 36px 0 0px 171px; } }
 .contacts {
   background-color: #EDF2EC; }
 
@@ -317,7 +437,7 @@ a {
   justify-content: space-between;
   align-items: center; }
   .contacts__wrapper .contacts-item1 {
-    margin: 50px 0 0 15px; }
+    margin: 26px 0 0 6px; }
   .contacts__wrapper .contacts-item2 .contact-me {
     font-family: 'Inika';
     font-style: normal;
@@ -357,6 +477,26 @@ a {
     .contacts__wrapper .contacts-item3 .ellipse4 {
       padding-left: 160px; }
 
+@media (max-width: 768px) {
+  .contacts .contacts__wrapper {
+    display: flex;
+    flex-direction: column; }
+    .contacts .contacts__wrapper .contacts-item1 {
+      width: 200px;
+      padding-top: 99px;
+      padding-right: 2px;
+      order: 3; }
+    .contacts .contacts__wrapper .contacts-item2 {
+      padding: 0;
+      margin: 0; }
+      .contacts .contacts__wrapper .contacts-item2 .contact-me {
+        padding: 0;
+        padding-top: 37px;
+        margin: 2px 2px 2px 2px; }
+    .contacts .contacts__wrapper .contacts-item3 {
+      padding: 0;
+      padding-top: 100px;
+      align-self: center; } }
 .wrapper {
   max-width: 1256px;
   margin: 0 auto; }
@@ -389,6 +529,17 @@ a {
       .header .wrapper__header .navigation a:hover {
         color: #E06733; }
 
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 705px; }
+    .wrapper .navigation__link {
+      font-family: 'Inika';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px; }
+
+  .header .wrapper__header {
+    padding: 35px 0; } }
 .container__wrapper {
   display: flex;
   justify-content: space-between;
@@ -424,5 +575,20 @@ a {
     gap: 22.2px; }
     .container__wrapper .footer-item3 .social1 {
       cursor: pointer; }
+
+@media (max-width: 768px) {
+  .container__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 26px; }
+    .container__wrapper .footer-item1 {
+      padding: 0;
+      margin: 0;
+      height: 30px; }
+    .container__wrapper .footer-item2 {
+      padding: 0; }
+    .container__wrapper .footer-item3 {
+      padding: 0;
+      padding-top: 10px; } }
 
 /*# sourceMappingURL=style.css.map */

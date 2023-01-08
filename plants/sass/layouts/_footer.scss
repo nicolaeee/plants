@@ -39,3 +39,22 @@
         }
     }
 }
+@media (max-width:768px){
+    .container__wrapper{
+        display: flex;
+        flex-direction: column;
+        padding-top: 26px;
+        .footer-item1{
+            padding: 0;
+            margin: 0;
+            height: 30px;
+        }
+        .footer-item2{
+            padding: 0;
+        }
+        .footer-item3{
+            padding: 0;
+            padding-top: 10px;
+        }
+    }
+}

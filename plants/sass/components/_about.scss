@@ -28,3 +28,40 @@
         }
     }
 }
+@media (max-width:768px){
+    .about__wrapper{
+
+        flex-direction: column;
+        gap: 40px;
+        padding-top:10px ;
+        margin: 0 auto;
+        .about-content{
+            padding-right: 65px;
+                .about-h2{
+                width: 423px;
+                font-family: 'Inika';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 35px;
+                line-height: 46px;
+                text-align: center;
+                padding-left: 124px;
+                padding-bottom: 20px;
+            }
+            .about-description{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #636060;
+                width: 668px;
+               padding-right: 10px;
+            }
+        }
+        .house-plant1{
+            padding-top: 3px;
+            width: 250px;
+        }
+    }
+}

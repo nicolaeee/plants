@@ -70,3 +70,40 @@
 
     }
 }
+@media (max-width:768px) {
+    .welcome{
+        height: 420px;
+
+    }
+  .welcome__wrapper{
+    flex-direction: row-reverse;
+    padding: 7px 50px;
+    .welcome-leaf1{
+        width: 280px;
+        padding-bottom: 135px;
+
+    }
+    .welcome-content{
+        .welcome-h1{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 50px;
+            color: #717171;
+            width: 341px;
+        }
+        .welcome-description{
+            width: 341px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            padding: 0px 2px 15px 4.5px;
+        }
+        .button{}
+    }
+  }
+
+}
