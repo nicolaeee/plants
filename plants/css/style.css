@@ -158,8 +158,8 @@ a {
     align-items: center;
     width: 559px;
     height: 51px;
-    padding-top: 9px;
-    padding-right: 232px; }
+    padding-top: 3px;
+    padding-right: 235px; }
     .service__wrapper .buttons-service .button2 {
       cursor: pointer; }
 
@@ -169,7 +169,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 51px 12.5px 92px 12.5px; }
+  padding: 49px 12.5px 92px 12.5px; }
   .services .service-item1 {
     display: flex;
     flex-direction: column;
@@ -206,12 +206,13 @@ a {
   .prices .prices__wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom: 114px;
+    padding-top: 53px;
+    padding-bottom: 115px;
     gap: 422px; }
     .prices .prices__wrapper .button-wrapper {
       border: 1px solid #E3E1D5;
-      border-radius: 20px; }
+      border-radius: 20px;
+      margin-bottom: 14px; }
     .prices .prices__wrapper .prices-item1 {
       display: flex;
       flex-direction: column;
@@ -219,15 +220,14 @@ a {
       align-items: center;
       padding-left: 15px; }
       .prices .prices__wrapper .prices-item1 .prices-item1-header {
+        margin-top: 0;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 48px;
         color: #000000;
-        align-self: flex-start;
-        margin-bottom: 32px;
-        padding-bottom: 31px; }
+        align-self: flex-start; }
     .prices .prices__wrapper .container-buttons {
       display: flex;
       flex-direction: column;
@@ -255,22 +255,22 @@ a {
     .prices .prices__wrapper .ellipse {
       width: 16px;
       height: 16px;
-      padding-left: 93px; }
+      padding-left: 88px; }
     .prices .prices__wrapper .ellipse1 {
       width: 16px;
       height: 16px;
-      padding-left: 65px; }
+      padding-left: 63px; }
     .prices .prices__wrapper .ellipse2 {
       width: 16px;
       height: 16px;
-      padding-left: 80px; }
+      padding-left: 78px; }
 
 .prices-item2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between; }
+  align-items: center; }
   .prices-item2 .prices-item1-header1 {
+    margin-top: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -278,7 +278,8 @@ a {
     line-height: 50px;
     text-align: right;
     color: #000000;
-    padding-right: 14px;
+    padding-right: 17px;
+    padding-bottom: 0;
     cursor: pointer; }
     .prices-item2 .prices-item1-header1 .second-color-prices {
       color: #499A18; }
@@ -298,7 +299,7 @@ a {
     transition: 1s;
     color: #E06733;
     padding: 12px 33px 12px 30px;
-    margin: 38px 0 0 290px;
+    margin: 11px 4px 0 290px;
     cursor: pointer; }
   .prices-item2 .button-bordered:hover {
     background-color: #E06733;
@@ -325,13 +326,14 @@ a {
     line-height: 52px;
     color: #499A18;
     width: 195px;
-    margin: 53px 64px 432px 118px;
+    margin: 53px 63px 432px 114px;
     cursor: pointer; }
   .contacts__wrapper .contacts-item3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 148px 19px 352px 0; }
+    padding: 148px 19px 352px 0;
+    margin-right: 2px; }
     .contacts__wrapper .contacts-item3 .button-contacts {
       background: #D6E7D2;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -391,7 +393,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 19px 0;
   max-width: 1222px; }
   .container__wrapper .footer-item1 {
     display: flex;

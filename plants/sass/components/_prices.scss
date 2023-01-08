@@ -3,13 +3,14 @@
     .prices__wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding-bottom: 114px;
+        padding-top: 53px;
+        padding-bottom: 115px;
         gap: 422px;
 
         .button-wrapper{
             border: 1px solid #E3E1D5;
             border-radius: 20px;
+            margin-bottom: 14px;
         }
         .prices-item1{
             display: flex;
@@ -19,6 +20,7 @@
             padding-left: 15px;
 
             .prices-item1-header{
+                margin-top: 0;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 700;
@@ -26,8 +28,7 @@
                 line-height: 48px;
                 color: #000000;
                 align-self: flex-start;
-                margin-bottom:32px;
-                padding-bottom: 31px;
+
             }
         }
         .container-buttons{
@@ -57,23 +58,24 @@
             align-items: center;
             cursor: pointer;
 
+
            }
            .ellipse{
             width: 16px;
             height: 16px;
-            padding-left: 93px;
+            padding-left: 88px;
 
            }
            .ellipse1{
             width: 16px;
             height: 16px;
-            padding-left: 65px;
+            padding-left: 63px;
 
            }
            .ellipse2{
             width: 16px;
             height: 16px;
-            padding-left:  80px;
+            padding-left:  78px;
            }
         }
         }
@@ -81,8 +83,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+
             .prices-item1-header1{
+                margin-top: 0;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 700;
@@ -90,13 +93,15 @@
                 line-height: 50px;
                 text-align: right;
                 color: #000000;
-                padding-right: 14px;
+                padding-right: 17px;
+                padding-bottom: 0;
                 cursor: pointer;
                 .second-color-prices{
                     color: #499A18;
                 }
             }
             .button{
+
                 font-family: 'Inika';
                 font-style: normal;
                 font-weight: 700;
@@ -112,7 +117,7 @@
                 transition: 1s;
                 color: #E06733;
                 padding: 12px 33px 12px 30px;
-                margin: 38px 0 0 290px;
+                margin: 11px 4px 0 290px;
                 cursor: pointer;
             }
             .button-bordered:hover{
@@ -123,6 +128,7 @@
                 width: 152px;
                 height: 174.99px;
                 padding: 39px 0 0 292px;
+
             }
         }
 
