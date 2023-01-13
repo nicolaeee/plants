@@ -217,7 +217,7 @@ a {
       width: 250px; } }
 @media (max-width: 380px) {
   .about__wrapper {
-    padding: 10px 0px 32px 0px;
+    padding: 11px 0px 32px 0px;
     gap: 0; }
     .about__wrapper .about-content {
       gap: 0;
