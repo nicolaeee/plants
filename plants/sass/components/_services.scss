@@ -52,6 +52,9 @@
             align-items: center;
             padding-bottom: 20px;
             cursor: pointer;
+            .img-services{
+                display: block;
+            }
 
         }
         .rectangle{
@@ -113,13 +116,13 @@
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        .img-services{
-                            width: 282px;
-                            height: 350px
-                        }
+                            padding-bottom: 29px;
+                            .img-services{
+                                display: block;
+                            }
                         .rectangle{
                             width: 280px;
-                            height: 100px;
+                            height: 91px;
                         }
                         .serviceh3{
                             padding-top: 3px;

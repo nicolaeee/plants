@@ -107,3 +107,42 @@
   }
 
 }
+@media(max-width:380px){
+    .welcome{
+        height: 328px;
+        .welcome__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            .welcome-leaf1{
+                display: none;
+            }
+            .welcome-content{
+                .welcome-h1{
+                    width: 330px;
+                    height: 72px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 35px;
+                    margin: 45px 1px 1px 1px;
+                }
+                .welcome-description{
+                    width: 314.52px;
+                    height: 105.42px;
+                    padding: 0;
+                    margin: 18px 1px 19px 1px;
+                }
+                .button{
+                    width: 100px;
+                    height: 34.14px;
+                    padding: 6px 18px;
+                    font-size: 9px;
+                    line-height: 20px;
+                    margin: 1px 1px 1px 1px;
+                }
+            }
+        }
+    }
+}
