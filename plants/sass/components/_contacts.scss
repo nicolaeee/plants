@@ -89,3 +89,41 @@
         }
     }
 }
+@media(max-width:380px){
+    .contacts{
+        .contacts__wrapper{
+            display: flex;
+            flex-direction: column;
+            height: 445px;
+            .contacts-item1{
+                width: 100px;
+                height: 124.25px;
+                padding: 39px 37px 129px 5px;
+
+                order: 3;
+            }
+            .contacts-item2{
+                padding: 0;
+               margin: 0;
+
+                .contact-me{
+                    padding: 14px 0px 0px 70px;
+
+
+                    font-size: 25px;
+                }
+            }
+            .contacts-item3{
+                padding: 0;
+                padding-top: 70px;
+                align-self: center;
+                .button-contacts{
+                    width: 298px;
+                    gap: 40px;
+                     padding: 8px 20px 10px 20px;
+                }
+            }
+        }
+    }
+
+}
