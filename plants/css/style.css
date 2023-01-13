@@ -215,6 +215,40 @@ a {
     .about__wrapper .house-plant1 {
       padding-top: 3px;
       width: 250px; } }
+@media (max-width: 380px) {
+  .about__wrapper {
+    padding: 10px 0px 32px 0px;
+    gap: 0; }
+    .about__wrapper .about-content {
+      gap: 0;
+      padding: 0; }
+      .about__wrapper .about-content .about-h2 {
+        padding: 0;
+        margin: 19px 0px 22px 32px;
+        width: 288px;
+        height: 57.74px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center; }
+      .about__wrapper .about-content .about-description {
+        margin: 0px 0px 0px 11px;
+        width: 330px;
+        height: 228.38px;
+        left: 25px;
+        top: 109.29px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px; }
+    .about__wrapper .house-plant1 {
+      width: 150px;
+      height: 147px;
+      padding: 0px 0px 0px 0px;
+      margin: 0px 0px 0px 0px; } }
 .service {
   background-color: #EDF2EC; }
 
