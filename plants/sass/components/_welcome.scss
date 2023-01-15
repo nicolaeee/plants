@@ -7,10 +7,11 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 62px 109px 55px 109px;
+    padding: 62px 109px 1px 109px;
 
     .welcome-leaf1{
-        padding-bottom: 46px;
+        margin: 0px 0px 49px 0px ;
+        padding: 0px 0px 0px 0px ;
     }
 
     .welcome-content{
@@ -28,7 +29,8 @@
             line-height: 50px;
             width: 549px;
             color: #717171;
-
+            padding: 0px 0px 27px 0px;
+            margin: 35px 0px 0px 0px ;
             .second-color{
                 color: #499A18;
             }
@@ -77,10 +79,11 @@
     }
   .welcome__wrapper{
     flex-direction: row-reverse;
-    padding: 7px 50px;
+    padding: 11px 50px;
     .welcome-leaf1{
         width: 280px;
-        padding-bottom: 135px;
+        padding: 0px 0px 112px 0px;
+        margin: 0px 0px 0px 0px ;
 
     }
     .welcome-content{
@@ -92,6 +95,8 @@
             line-height: 50px;
             color: #717171;
             width: 341px;
+            margin: 33px 0px 15px 0px;
+            padding: 0px 0px 0px 0px;
         }
         .welcome-description{
             width: 341px;
@@ -100,7 +105,7 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 25px;
-            padding: 0px 2px 15px 4.5px;
+            padding: 0px 2px 18px 4.5px;
         }
         .button{}
     }
@@ -109,7 +114,7 @@
 }
 @media(max-width:380px){
     .welcome{
-        height: 328px;
+        height: 311px;
         .welcome__wrapper{
             display: flex;
             flex-direction: column;
@@ -126,7 +131,7 @@
                     font-weight: 700;
                     font-size: 25px;
                     line-height: 35px;
-                    margin: 45px 1px 1px 1px;
+                    margin: 25px 1px 1px 1px;
                 }
                 .welcome-description{
                     width: 314.52px;

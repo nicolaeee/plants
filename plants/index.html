@@ -11,28 +11,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <header class="header">
-                 <div class="wrapper wrapper__header">
-                <a href="" class="logo"><img src="./img/welcome/logo.png" alt="logo-image"> </a>
-                <nav class="header-navigation">
-                    <div class="hamb">
-                        <div class="hamb-field " id="#hamb">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
+    <header class="header">
+        <div class="wrapper wrapper__header">
+            <nav class="navbar">
+                            <div class="brand-title"><a href="" class="logo"><img src="./img/welcome/logo.png" alt="logo-image"> </a></div>
+                            <a href="#" class="toggle-button">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </a>
+                        <div class="navbar-links">
+                             <ul class="navigation">
+                               <li class="navigation__link"><a href="#welcome">Home</a> </li>
+                               <li class="navigation__link"><a href="#about">About us</a> </li>
+                               <li class="navigation__link"><a href="#service">Service</a> </li>
+                               <li class="navigation__link"><a href="#prices">Price</a> </li>
+                               <li class="navigation__link"><a href="#contacts">Contacts</a> </li>
+                           </ul>
                         </div>
+                    </nav>
                     </div>
-                    <ul class="navigation">
-                        <li class="navigation__link"><a href="#welcome">Home</a> </li>
-                        <li class="navigation__link"><a href="#about">About us</a> </li>
-                        <li class="navigation__link"><a href="#service">Service</a> </li>
-                        <li class="navigation__link"><a href="#prices">Price</a> </li>
-                        <li class="navigation__link"><a href="#contacts">Contacts</a> </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+
+
+    </header>
+
         <main class="main">
             <section class="welcome" id="welcome">
                     <div class="wrapper welcome__wrapper" >
@@ -121,6 +124,7 @@
                             <div class="service-item1">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first6tablete.png">
+
                                     <source srcset="./img/services/first6.png">
                                     <img class="img-services" src="./img/services/first6.png" alt="first-item">
                                    </picture>
