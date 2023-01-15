@@ -7,7 +7,7 @@
     align-items: center;
 
     .contacts-item1{
-        margin: 50px 0 0 15px;
+        margin: 26px 0 0 6px;
     }
 
     .contacts-item2{
@@ -49,12 +49,81 @@
         justify-content: space-between;
         align-items: center;
         gap: 175px;
-        padding: 7px 222px 10px 20px;
+        padding: 12px 35px 10px 20px;
         cursor: pointer;
        }
        .ellipse4{
         padding-left: 160px;
        }
+    }
+
+}
+@media (max-width:768px){
+    .contacts{
+        .contacts__wrapper{
+            display: flex;
+            flex-direction: column;
+            .contacts-item1{
+                width: 200px;
+                padding-top: 99px;
+                padding-right: 2px;
+                order: 3;
+            }
+            .contacts-item2{
+                padding: 0;
+               margin: 0;
+                .contact-me{
+                    padding: 0;
+                    padding-top: 37px;
+                    margin: 2px 2px 2px 2px;
+                }
+            }
+            .contacts-item3{
+                padding: 0;
+                padding-top: 100px;
+                align-self: center;
+                .button-contacts{
+
+                }
+            }
+        }
+    }
+}
+@media(max-width:380px){
+    .contacts{
+        .contacts__wrapper{
+            display: flex;
+            flex-direction: column;
+            height: 445px;
+            .contacts-item1{
+                width: 100px;
+                height: 124.25px;
+                padding: 39px 37px 129px 5px;
+
+                order: 3;
+            }
+            .contacts-item2{
+                padding: 0;
+               margin: 0;
+
+                .contact-me{
+                    padding: 14px 0px 0px 70px;
+
+
+                    font-size: 25px;
+                }
+            }
+            .contacts-item3{
+                padding: 0;
+                padding-top: 70px;
+                align-self: center;
+                .button-contacts{
+                    width: 298px;
+                    gap: 40px;
+                     padding: 8px 20px 10px 20px;
+                }
+            }
+        }
     }
 
 }
