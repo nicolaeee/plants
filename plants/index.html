@@ -11,20 +11,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-        <header class="header">
-                 <div class="wrapper wrapper__header">
-                <a href="" class="logo"><img src="./img/welcome/logo.png" alt="logo-image"> </a>
-                <nav class="header-navigation">
-                    <ul class="navigation">
-                        <li class="navigation__link"><a href="#welcome">Home</a> </li>
-                        <li class="navigation__link"><a href="#about">About us</a> </li>
-                        <li class="navigation__link"><a href="#service">Service</a> </li>
-                        <li class="navigation__link"><a href="#prices">Price</a> </li>
-                        <li class="navigation__link"><a href="#contacts">Contacts</a> </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header class="header">
+        <div class="wrapper wrapper__header">
+            <nav class="navbar">
+                            <div class="brand-title"><a href="" class="logo"><img src="./img/welcome/logo.png" alt="logo-image"> </a></div>
+                            <a href="#" class="toggle-button">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </a>
+                        <div class="navbar-links">
+                             <ul class="navigation">
+                               <li class="navigation__link"><a href="#welcome">Home</a> </li>
+                               <li class="navigation__link"><a href="#about">About us</a> </li>
+                               <li class="navigation__link"><a href="#service">Service</a> </li>
+                               <li class="navigation__link"><a href="#prices">Price</a> </li>
+                               <li class="navigation__link"><a href="#contacts">Contacts</a> </li>
+                           </ul>
+                        </div>
+                    </nav>
+                    </div>
+
+
+    </header>
+
         <main class="main">
             <section class="welcome" id="welcome">
                     <div class="wrapper welcome__wrapper" >
@@ -45,7 +56,7 @@
                         <p class="about-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
                     </div>
                     <div class="house-plant1">
-                        <img src="./img/about/houseplant-1.png" alt="house-plant-1">
+                        <img class="house-plant1" src="./img/about/houseplant-1.png" alt="house-plant-1">
                     </div>
                 </div>
             </section>
@@ -61,37 +72,62 @@
                     </div>
                         <div class="services">
                             <div class="service-item1">
-                                <img src="./img/services/first1.png" alt="first-item">
+                                <picture>
+                                 <source media="(max-width:768px)" srcset="./img/services/first1tablete.png">
+                                 <source srcset="./img/services/first1.png">
+                                 <img class="img-services" src="./img/services/first1.png" alt="first-item">
+                                </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Garden care</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
                             <div class="service-item1">
-                                <img src="./img/services/first2.png" alt="second-item">
+                                <picture>
+                                    <source media="(max-width:768px)" srcset="./img/services/first2tablete.png">
+                                    <source srcset="./img/services/first2.png">
+                                    <img class="img-services" src="./img/services/first2.png" alt="first-item">
+                                   </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Planting</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
                             <div class="service-item1">
-                                <img src="./img/services/first3.png" alt="third-item">
+                                <picture>
+                                    <source media="(max-width:768px)" srcset="./img/services/first3tablete.png">
+                                    <source srcset="./img/services/first3.png">
+                                    <img class="img-services" src="./img/services/first3.png" alt="first-item">
+                                   </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Lawn care</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
                             <div class="service-item1">
-                                <img src="./img/services/first4.png" alt="fourth-item">
+                                <picture>
+                                    <source media="(max-width:768px)" srcset="./img/services/first4tablete.png">
+                                    <source srcset="./img/services/first4.png">
+                                    <img class="img-services" src="./img/services/first4.png" alt="first-item">
+                                   </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Planting</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
                             <div class="service-item1">
-                                <img src="./img/services/first5.png" alt="fith-item">
+                                <picture>
+                                    <source media="(max-width:768px)" srcset="./img/services/first5tablete.png">
+                                    <source srcset="./img/services/first5.png">
+                                    <img class="img-services" src="./img/services/first5.png" alt="first-item">
+                                   </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Garden care</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
                             <div class="service-item1">
-                                <img src="./img/services/first6.png" alt="six-item">
+                                <picture>
+                                    <source media="(max-width:768px)" srcset="./img/services/first6tablete.png">
+
+                                    <source srcset="./img/services/first6.png">
+                                    <img class="img-services" src="./img/services/first6.png" alt="first-item">
+                                   </picture>
                                 <div class="rectangle"><h3 class="serviceh3">Planting</h3>
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
@@ -121,7 +157,7 @@
             <section class="contacts" id="contacts">
                     <div class="wrapper contacts__wrapper" >
                         <div class="contacts-item1">
-                            <img src="./img/contacts/contact_woman-1.png" alt="woman-contanct">
+                            <img  class="contacts-item1"src="./img/contacts/contact_woman-1.png" alt="woman-contanct">
                         </div>
                         <div class="contacts-item2">
                             <h3 class="contact-me">

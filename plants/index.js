@@ -1,19 +1,9 @@
-// var acc = document.getElementsByClassName("accordion");
-// var i;
+//hamburger menu for 380px;
+const toggleButton =document.getElementsByClassName('toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
-// for (i = 0; i < acc.length; i++) {
-//   acc[i].addEventListener("click", function() {
-//     this.classList.toggle("active");
+toggleButton.addEventListener('click', ()=>{
+    navbarLinks.classList.toggle('active')
+})
 
-//     var panel = this.nextElementSibling;
-
-
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-
-//     } else {
-//       panel.style.display = "block";
-
-//     }
-//   });
-// }
+console.log('Score-90/100"\n"Вёрстка валидная +10 "\n"Вёрстка семантическая +20"\n"Вёрстка соответствует макету +40"\n"Требования к css + 12"\n"Интерактивность, реализуемая через css +20')
