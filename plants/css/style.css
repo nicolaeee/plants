@@ -423,67 +423,118 @@ a {
     justify-content: space-between;
     padding-top: 53px;
     padding-bottom: 115px;
-    gap: 422px; }
-    .prices .prices__wrapper .button-wrapper {
-      border: 1px solid #E3E1D5;
-      border-radius: 20px;
-      margin-bottom: 14px; }
-    .prices .prices__wrapper .prices-item1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding-left: 15px; }
-      .prices .prices__wrapper .prices-item1 .prices-item1-header {
-        margin-top: 0;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 48px;
-        color: #000000;
-        align-self: flex-start; }
-    .prices .prices__wrapper .container-buttons {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      padding: 34px 41px;
-      gap: 32px; }
-    .prices .prices__wrapper .button-prices {
-      width: 250px;
-      height: 50px;
-      background: #EDF2EC;
-      border: none;
-      border-radius: 20px;
+    gap: 407px; }
+    .prices .prices__wrapper .prices__header {
+      padding: 0px 0px 0px 18px;
+      margin: 0px 0px 0px 0px; }
+    .prices .prices__wrapper .prices__accordion {
       font-family: 'Inter';
       font-style: normal;
       font-weight: 700;
-      font-size: 20px;
-      line-height: 20px;
-      color: #000000;
-      padding: 16px 110px 16px 40px;
+      font-size: 40px;
+      line-height: 48px;
+      padding: 0px 0px 0px 1px;
+      margin: 0px 0px 0px 0px; }
+    .prices .prices__wrapper .accordion {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      cursor: pointer; }
-    .prices .prices__wrapper .ellipse {
-      width: 16px;
-      height: 16px;
-      padding-left: 88px; }
-    .prices .prices__wrapper .ellipse1 {
-      width: 16px;
-      height: 16px;
-      padding-left: 63px; }
-    .prices .prices__wrapper .ellipse2 {
-      width: 16px;
-      height: 16px;
-      padding-left: 78px; }
+      flex-direction: column;
+      gap: 32px;
+      border: 1px solid #E3E1D5;
+      border-radius: 20px;
+      padding: 37px 39px 30px 40px;
+      margin: 58px 0px 0px 0px; }
+      .prices .prices__wrapper .accordion .accordion__header {
+        padding: 12px 42px 4px 34px;
+        width: 250px;
+        height: 50px;
+        border-radius: 20px;
+        background: #EDF2EC;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        border: none;
+        outline: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        cursor: pointer; }
+        .prices .prices__wrapper .accordion .accordion__header .price__accordion-arrow {
+          width: 17px; }
+      .prices .prices__wrapper .accordion .accordion__header.active {
+        background-color: #D6E7D2;
+        transition: 0.2s;
+        border-radius: 20px 20px 2px 2px; }
+        .prices .prices__wrapper .accordion .accordion__header.active .price__accordion-arrow {
+          transform: rotate(180deg);
+          transition: all 0.3s ease-in-out; }
+      .prices .prices__wrapper .accordion .accordion__body {
+        padding: 0 1rem;
+        background-color: #f3f3f3;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 10px;
+        color: #717171;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        border-radius: 2px 2px 20px 20px;
+        width: 230px; }
+        .prices .prices__wrapper .accordion .accordion__body .prices__description {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 10px;
+          line-height: 10px;
+          color: #717171;
+          width: 169px;
+          height: 30px; }
+        .prices .prices__wrapper .accordion .accordion__body .prices__cost {
+          padding: 2px 12px 5px 2px;
+          margin: 0px 0px 0px 0px;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 20px;
+          color: #000000; }
+          .prices .prices__wrapper .accordion .accordion__body .prices__cost .prices__cost-modificator {
+            color: #E06733; }
+      .prices .prices__wrapper .accordion .accordion__body.active {
+        max-height: 10rem;
+        padding: 1rem;
+        background: #D6E7D2; }
+        .prices .prices__wrapper .accordion .accordion__body.active .prices__line {
+          background-color: #717171;
+          width: 220px;
+          height: 0.3px;
+          padding: 0px 0px 0px 0px;
+          margin: 0px 0px 0px 0px;
+          transition: 0.4s ease-in-out;
+          border-radius: 2px; }
+      .prices .prices__wrapper .accordion .price__button {
+        border-radius: 10px;
+        border: none;
+        padding: 2px 12px 3px 12px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #717171;
+        cursor: pointer; }
 
 .prices-item2 {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; }
   .prices-item2 .prices-item1-header1 {
     margin-top: 0;
     font-family: 'Inter';
@@ -528,15 +579,13 @@ a {
   .prices .prices__wrapper {
     gap: 0;
     padding: 42px 87px 86px 32px; }
-    .prices .prices__wrapper .prices-item1 .prices-item1-header {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 35px;
-      margin: 0 0 0 18px; }
-    .prices .prices__wrapper .prices-item1 .button-wrapper {
-      margin-bottom: 79px;
-      margin-left: 4px; }
+    .prices .prices__wrapper .prices__header .prices__accordion {
+      padding: 0px 0px 0px 14px;
+      margin: 0px 0px 0px 0px;
+      font-size: 35px; }
+    .prices .prices__wrapper .accordion {
+      padding: 33px 39px 30px 43px;
+      margin: 58px 0px 0px 0px; }
     .prices .prices__wrapper .prices-item2 {
       margin-right: 20px; }
       .prices .prices__wrapper .prices-item2 .prices-item1-header1 {
@@ -558,52 +607,20 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 0px 0px 0px 0px; }
-    .prices .prices__wrapper .prices-item1 .prices-item1-header {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      margin: 17px 0px 29px 74px;
-      padding: 0px 0px 0px 0px; }
-    .prices .prices__wrapper .prices-item1 .button-wrapper {
-      margin: 0px 10px 0px 0px; }
-      .prices .prices__wrapper .prices-item1 .button-wrapper .container-buttons {
-        margin: 0px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 31px 21px;
-        gap: 11px; }
-      .prices .prices__wrapper .prices-item1 .button-wrapper .button-prices {
-        width: 180px;
-        height: 49.72px;
-        background: #EDF2EC;
-        border: none;
-        border-radius: 20px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 20px;
-        color: #000000;
-        padding: 18px 110px 16px 28px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer; }
-        .prices .prices__wrapper .prices-item1 .button-wrapper .button-prices .ellipse {
-          width: 16px;
-          height: 16px;
-          padding-left: 47px; }
-        .prices .prices__wrapper .prices-item1 .button-wrapper .button-prices .ellipse1 {
-          width: 16px;
-          height: 16px;
-          padding-left: 27px; }
-        .prices .prices__wrapper .prices-item1 .button-wrapper .button-prices .ellipse2 {
-          width: 16px;
-          height: 16px;
-          padding-left: 39px; }
+    .prices .prices__wrapper .prices__header .prices__accordion {
+      padding: 0px 0px 0px 14px;
+      margin: 18px 0px 0px 66px;
+      font-size: 25px; }
+    .prices .prices__wrapper .accordion {
+      padding: 28px 14px 25px 20px;
+      margin: 28px 24px 0px 1px;
+      gap: 15px; }
+      .prices .prices__wrapper .accordion .accordion__item .accordion__header {
+        padding: 16px 41px 0px 30px;
+        width: 181px;
+        font-size: 15px; }
+      .prices .prices__wrapper .accordion .accordion__item .accordion__body {
+        width: 161px; }
     .prices .prices__wrapper .prices-item2 {
       margin-right: 20px; }
       .prices .prices__wrapper .prices-item2 .prices-item1-header1 {
