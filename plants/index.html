@@ -8,6 +8,10 @@
     <link rel="icon" type="image/x-icon" href="./img/welcome/logo_vector.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -65,13 +69,13 @@
                     <div class="service-content">
                         <h2 class="serviceh2">Service and our projects</h2>
                            <div class="buttons-service">
-                            <button class="button2 button-bordered2">Gardens</button>
-                            <button class="button2 button-bordered2">Lawn</button>
-                            <button class="button2 button-bordered2">Planting</button>
+                            <button data-f="garden" class=" button2 button-bordered2 garden">Gardens</button>
+                            <button data-f="lawn" class=" button2 button-bordered2 lawn">Lawn</button>
+                            <button data-f="plant" class="button-plant button2 button-bordered2 plant">Planting</button>
                            </div>
                     </div>
                         <div class="services">
-                            <div class="service-item1">
+                            <div class="service-item1 garden" data-f="garden">
                                 <picture>
                                  <source media="(max-width:768px)" srcset="./img/services/first1tablete.png">
                                  <source srcset="./img/services/first1.png">
@@ -81,7 +85,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first2tablete.png">
                                     <source srcset="./img/services/first2.png">
@@ -91,7 +95,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="lawn">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first3tablete.png">
                                     <source srcset="./img/services/first3.png">
@@ -101,7 +105,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first4tablete.png">
                                     <source srcset="./img/services/first4.png">
@@ -111,7 +115,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="garden">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first5tablete.png">
                                     <source srcset="./img/services/first5.png">
@@ -121,7 +125,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first6tablete.png">
 
@@ -137,16 +141,52 @@
             </section>
             <section class="prices" id="prices">
                     <div class="wrapper prices__wrapper" >
-                        <div class="prices-item1">
-                            <h3 class="prices-item1-header">Prices</h3>
-                            <div class="button-wrapper">
-                                <div class="container-buttons">
-                                    <button class="button-prices">Basics<img class="ellipse" src="./img/prices/accordion_btn.svg"  alt="accordion"></button>
-                                    <button class="button-prices">Standard<img class="ellipse1" src="./img/prices/accordion_btn.svg"  alt="accordion"></button>
-                                    <button class="button-prices">Procare<img class="ellipse2" src="./img/prices/accordion_btn.svg"  alt="accordion"></button>
+                        <div class="prices__header">
+                            <h2 class="prices__accordion">Prices</h2>
+                             <div class="accordion">
+                        <div class="accordion__item">
+                             <button class="accordion__header">
+                                <strong>Basic</strong><img src="./img/prices/accordion_btn.svg" alt="" class="price__accordion-arrow">
+                            </button>
+                            <div class="accordion__body">
+                                <hr class="prices__line">
+                               <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                <div class="price__accordion">
+                                    <p class="prices__cost"><b class="prices__cost-modificator">$15</b>/ per hour</p>
                                 </div>
+                                <button class="price__button"><a href="#contacts">Order</a> </button>
                             </div>
                         </div>
+                        <div class="accordion__item">
+                            <button class="accordion__header">
+                               <strong>Standard</strong><img src="./img/prices/accordion_btn.svg" alt="" class="price__accordion-arrow">
+                           </button>
+                           <div class="accordion__body">
+                            <hr class="prices__line">
+                            <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                             <div class="price__accordion">
+                                <p class="prices__cost"><b class="prices__cost-modificator">$25</b>/ per hour</p>
+                             </div>
+                             <button class="price__button"><a href="#contacts">Order</a></button>
+                           </div>
+                       </div>
+                       <div class="accordion__item">
+                        <button class="accordion__header">
+                           <strong>Pro care</strong><img src="./img/prices/accordion_btn.svg" alt="" class="price__accordion-arrow">
+                       </button>
+                       <div class="accordion__body">
+                        <hr class="prices__line">
+                        <p class="prices__description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                         <div class="price__accordion">
+                            <p class="prices__cost"><b class="prices__cost-modificator">$35</b>/ per hour</p>
+                         </div>
+                         <button class="price__button"><a href="#contacts">Order</a></button>
+                       </div>
+                   </div>
+
+                </div>
+                        </div>
+
                         <div class="prices-item2">
                             <h1 class="prices-item1-header1" >Our best <span class="second-color-prices">gardeners</span>  are ready to help you</h1>
                             <button class="button button-bordered">Contact us</button>
@@ -164,9 +204,21 @@
                                 Contact us
                             </h3>
                         </div>
-                    <div class="contacts-item3">
-                        <button class="button-contacts">City<img class="ellipse4" src="./img/prices/accordion_btn.svg"  alt="accordion"></button>
-                    </div>
+
+                        <div class="select active">
+                            <div class="select__header active">
+                                <span class="select__current">
+                                    City
+                                </span>
+                                <div class="select__icon"><img class="contacts__arrow" src="./img/prices/accordion_btn.svg" alt=""></div>
+                            </div>
+                            <div class="select__body">
+                                <div class="select__item">Canandaigua, NY</div>
+                                <div class="select__item">New York City</div>
+                                <div class="select__item">Yonkers, NY</div>
+                                <div class="select__item">Sherrill, NY</div>
+                            </div>
+                        </div>
                 </div>
             </section>
         </main>
