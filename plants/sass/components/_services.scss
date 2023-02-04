@@ -1,12 +1,16 @@
 .service{
     background-color:#EDF2EC;
 }
-
 .service__wrapper{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color:#EDF2EC;
+    .blur{
+        width: 332px;
+        height: 464px;
+       background: black;
+    }
 
     .service-content{
         display: flex;
@@ -14,7 +18,8 @@
         align-items: center;
         padding-top: 7px;
         padding-left: 18px;
-    }.serviceh2{
+    }
+    .serviceh2{
             font-family: 'Inika';
             font-style: normal;
             font-weight: 400;
@@ -36,6 +41,7 @@
                 cursor: pointer;
             }
         }
+
 }
 .services{
         display: flex;
@@ -44,7 +50,6 @@
         flex-wrap: wrap;
         gap: 40px;
         padding: 49px 12.5px 92px 12.5px;
-
         .service-item1{
             display: flex;
             flex-direction: column;

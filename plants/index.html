@@ -69,13 +69,13 @@
                     <div class="service-content">
                         <h2 class="serviceh2">Service and our projects</h2>
                            <div class="buttons-service">
-                            <button class="button2 button-bordered2">Gardens</button>
-                            <button class="button2 button-bordered2">Lawn</button>
-                            <button class="button2 button-bordered2">Planting</button>
+                            <button data-f="garden" class=" button2 button-bordered2 garden">Gardens</button>
+                            <button data-f="lawn" class=" button2 button-bordered2 lawn">Lawn</button>
+                            <button data-f="plant" class="button-plant button2 button-bordered2 plant">Planting</button>
                            </div>
                     </div>
                         <div class="services">
-                            <div class="service-item1">
+                            <div class="service-item1 garden" data-f="garden">
                                 <picture>
                                  <source media="(max-width:768px)" srcset="./img/services/first1tablete.png">
                                  <source srcset="./img/services/first1.png">
@@ -85,7 +85,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first2tablete.png">
                                     <source srcset="./img/services/first2.png">
@@ -95,7 +95,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="lawn">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first3tablete.png">
                                     <source srcset="./img/services/first3.png">
@@ -105,7 +105,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first4tablete.png">
                                     <source srcset="./img/services/first4.png">
@@ -115,7 +115,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="garden">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first5tablete.png">
                                     <source srcset="./img/services/first5.png">
@@ -125,7 +125,7 @@
                                     <p class="service-description">Lorem Ipsum has been the industry</p>
                                 </div>
                             </div>
-                            <div class="service-item1">
+                            <div class="service-item1" data-f="plant">
                                 <picture>
                                     <source media="(max-width:768px)" srcset="./img/services/first6tablete.png">
 
@@ -204,9 +204,21 @@
                                 Contact us
                             </h3>
                         </div>
-                    <div class="contacts-item3">
-                        <button class="button-contacts" id="#contacts"> City<img class="ellipse4" src="./img/prices/accordion_btn.svg"  alt="accordion"></button>
-                    </div>
+
+                        <div class="select active">
+                            <div class="select__header active">
+                                <span class="select__current">
+                                    City
+                                </span>
+                                <div class="select__icon"><img class="contacts__arrow" src="./img/prices/accordion_btn.svg" alt=""></div>
+                            </div>
+                            <div class="select__body">
+                                <div class="select__item">Canandaigua, NY</div>
+                                <div class="select__item">New York City</div>
+                                <div class="select__item">Yonkers, NY</div>
+                                <div class="select__item">Sherrill, NY</div>
+                            </div>
+                        </div>
                 </div>
             </section>
         </main>
